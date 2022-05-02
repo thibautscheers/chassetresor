@@ -1,2 +1,3 @@
-# chassetresor
-Prog en POO
+# ChasseAuTresor
+---
+Thibaut Scheers
