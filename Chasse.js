@@ -22,15 +22,7 @@ drawTableau2D(10, 10, "emplacementTable")
 function choix(x, y) {
     return document.getElementById("emplacementCommentaires").innerHTML = x, y
 }
-// function compte(){
-//     let compte = 0
-    
-//     if(onclick) {
-//         compte= compte+1
-//     }   
 
-// return compte
-// }
 function getAction(event) {
     const button = event.target.nodeName === "BUTTON";
     if (button) {
