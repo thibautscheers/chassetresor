@@ -18,10 +18,17 @@ function drawTableau2D(x, y, emplacement) {
 }
 
 drawTableau2D(10, 10, "emplacementTable")
-
+// rajoute les coordonner de la case cliquer
+let cpt = 0
 function choix(x, y) {
-    return document.getElementById("emplacementCommentaires").innerHTML = x, y
+    // compteur de tour 
+    
+    cpt = cpt+1
+    document.getElementById("compte").innerHTML = cpt
+    document.getElementById("emplacementCommentaires").innerHTML = x, y
 }
+
+
 
 function getAction(event) {
     const button = event.target.nodeName === "BUTTON";
@@ -33,12 +40,12 @@ function actionHandler() {
     let carte = document.getElementById("emplacementTable");
     // On récupère les évents dans l'élément "carte"
     carte.addEventListener("click", (event) => {
-    /**
-     * Avec la fonction getAction(event)
-     * On récupère ce qui a été cliqué
-     * Si c'est un bouton alors on change 
-     * La valeur de l'id à "clicked"
-     * */
+        /**
+         * Avec la fonction getAction(event)
+         * On récupère ce qui a été cliqué
+         * Si c'est un bouton alors on change 
+         * La valeur de l'id à "clicked"
+         * */
         const isButton = this.getAction(event);
         if (isButton) {
             return true;
