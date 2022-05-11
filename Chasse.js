@@ -18,10 +18,9 @@ function drawTableau2D(x, y, emplacement) {
 }
 
 drawTableau2D(10, 10, "emplacementTable")
-// rajoute les coordonner de la case cliquer
+// rajoute les coordonner de la case cliquer et un compte
 let cpt = 0
 function choix(x, y) {
-    // compteur de tour 
     
     cpt = cpt+1
     document.getElementById("compte").innerHTML = cpt
