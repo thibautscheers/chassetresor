@@ -32,6 +32,6 @@
     
 </body>
 
-<script type="text/javascript" src="Chasse.js"></script>
+<script type="text/javascript" src="JS/Chasse.js"></script>
 
 </html>
