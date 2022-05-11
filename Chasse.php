@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <title>L'ile au trésor</title>
-    <link rel="stylesheet" type="text/css" href="Chasse.css">
+    <link rel="stylesheet" type="text/css" href="media/Chasse.css">
 </head>
 
 <body>
